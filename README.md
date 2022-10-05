@@ -9,3 +9,35 @@ This website is designed and developed by me and is complete open source.
 * Firebase
 * GitHub
 * NodeJS
+
+# Structure
+* Header
+* About me
+* Education
+* Skills
+* Portfolio
+* Expirience
+* Contact
+* Footer
+
+# FRON-END -- REACT 
+
+# LIB
+* Ant design
+* React hook Form
+* Formik
+* Axios
+
+# Clean Architecture
+* Adapters
+* Assets - multimedia resources
+* Components - components or modules
+* Contexts - Manage state inside a view
+* Hooks - custom hooks 
+* Interceptors
+* Models - data structure models
+* Pages - views
+* Redux
+* Services - http clients
+* Styled components - css style by components
+* Utilities - re useful functionalities

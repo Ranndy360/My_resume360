@@ -27,6 +27,7 @@ This website is designed and developed by me and is complete open source.
 * React hook Form
 * Formik
 * Axios
+* FullPage
 
 # Clean Architecture
 * Adapters

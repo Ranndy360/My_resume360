@@ -1,13 +1,19 @@
-import logo from './logo.svg';
+import Header from '../../components/header/Header';
+import './home.css';
+// import Header from '../components/header/Header';
 
 function Home() {
   return (
-    <div id="fullpage">
-        <div class="section">Some section 1</div>
-        <div class="section">Some section 2</div>
-        <div class="section">Some section 3</div>
-        <div class="section">Some section 4</div>
+    <div class="container" >
+      <Header/>
+      <section class="page">
+        Page one
+      </section>
+      <section class="page">
+        Page two
+      </section>
     </div>
+
   );
 }
 

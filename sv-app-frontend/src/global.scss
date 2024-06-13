@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$primary: #06b6d4; 
+
+
+:root {
+  --ion-color-primary-50: #ecfcff;
+  --ion-color-primary-100: #cff7fe;
+  --ion-color-primary-200: #a5effc;
+  --ion-color-primary-300: #67e4f9;
+  --ion-color-primary-400: #22d0ee;
+  --ion-color-primary-500: #06b6d4;
+  --ion-color-primary-600: #0899b2;
+  --ion-color-primary-700: #0e7d90;
+  --ion-color-primary-800: #156775;
+  --ion-color-primary-900: #165863;
+}
+
+@layer components {
+  .btn-primary {
+    @apply py-2 px-4 bg-cyan-500 text-white font-semibold shadow-md hover:bg-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-opacity-75;
+  }
+
+  .main-container{
+    @apply max-w-screen-lg mx-auto;
+    padding: 33px;
+  }
+}
+
+// ******SLIDE***************
+body {
+  font-family: arial, helvetica;
+}
+
+
+#section1 {
+  color: #fff;
+}
+
+.fp-section {
+  text-align: center;
+}
+
+.actions {
+  list-style-type: none;
+}
+.actions button {
+  padding: 0.93em 1.87em;
+  background: #35495e;
+  border-radius: 5px;
+  border: 0;
+  color: #fff;
+  margin: 7px;
+  font-size: 15px;
+  cursor: pointer;
+  display: inline-block;
+}
+.actions button:hover {
+  background: #fff;
+  color: #35495e;
+}
+
+/****************CUSTOM CSS************************/
+.custom-section:first-of-type{
+  background-image: url("./assets/fondo.jpg");
+  background-position: center;
+}

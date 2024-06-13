@@ -1,0 +1,15 @@
+@import "../../global.scss";
+
+h1{
+  max-width: 768px;
+  width: 100%;
+  text-align: left;
+  text-shadow: 2px 2px #000;
+  color: white;
+  span{
+    color: $primary;
+  }
+  button{
+    font-size: 20px;
+  }
+}
